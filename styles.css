@@ -185,7 +185,7 @@ img{
     margin: 15px;
 }
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:375px) {
     
     body{
         background-color: red;
