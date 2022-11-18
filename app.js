@@ -1,4 +1,4 @@
-let rating
+let rating = 0
 document.querySelector("#b-one").onclick = function(){
     resetGlobes();
     rating = '1'
@@ -39,8 +39,12 @@ function resetGlobes(){
 }
 
 document.querySelector("#sub-button").onclick = function(){
-    document.querySelector(".ratings-container").className = "hidden";
-    document.querySelector(".thank-you-container").className = "";
+    if (rating == 0){
+        alert("Please select a rating before submitting the form")
+    }else{
+        document.querySelector(".ratings-container").className = "hidden";
+        document.querySelector(".thank-you-container").className = "";
 
-    document.querySelector('#rating-value').innerHTML = rating;
+        document.querySelector('#rating-value').innerHTML = rating;
+    }
 }

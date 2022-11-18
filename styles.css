@@ -166,7 +166,7 @@ img{
     color: var(--orange);
     font-size: 12pt;
     border-radius: 25px;
-    padding: 6px 20px;
+    padding: 10px 20px;
     margin: 35px 0px 25px;
 }
 
@@ -222,12 +222,12 @@ img{
         display: flex;
         flex-direction: column;
         
-        width:600px;
+        width:350px;
         height: 350px;
         
         border-radius: 10%;
         
-        /* padding: 30px; */
+        padding: 30px;
 
         position: fixed;
         top: 50%;
@@ -235,13 +235,26 @@ img{
         transform: translate(-50%, -50%);
     }
 
-    .text p{
-        /* height: 30px ; */
-        /* padding: 70px 0px; */
-        font-size: 13pt;
-    }
-    h2{
-        font-size: 20pt;
+    .rating-message{
+        background-color: var(--dark-blue);
+        color: var(--orange);
+        font-size: 12pt;
+        border-radius: 25px;
+        padding: 10px 15px;
+        margin: 35px 0px 25px;
     }
 
+    .text p{
+   
+        font-size: 13pt;
+    }
+
+    h2{
+        font-size: 22pt;
+    }
+
+
+    /* .thank-you-card .text{
+        font-size: 30pt;
+    } */
 }
