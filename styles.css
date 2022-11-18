@@ -187,11 +187,61 @@ img{
 
 @media screen and (max-width:430px) {
     
-    body{
+    /* body{
         background-color: red;
     }
     #sub-button{
         background-color: purple;
+    } */
+
+    .card{
+        background-color: var(--very-dark-blue);
+        
+        display: flex;
+        flex-direction: column;
+        
+        width:350px;
+        height: 350px;
+        
+        border-radius: 10%;
+        
+        padding: 25px;
+
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .thank-you-card{
+        background-color: var(--very-dark-blue);    
+        align-items: center;
+
+        background-color: var(--very-dark-blue);
+        
+        display: flex;
+        flex-direction: column;
+        
+        width:600px;
+        height: 350px;
+        
+        border-radius: 10%;
+        
+        /* padding: 30px; */
+
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .text p{
+        /* height: 30px ; */
+        /* padding: 70px 0px; */
+        font-size: 13pt;
+    }
+    h2{
+        font-size: 20pt;
     }
 
 }
