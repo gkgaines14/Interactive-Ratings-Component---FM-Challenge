@@ -40,7 +40,7 @@ function resetGlobes(){
 
 document.querySelector("#sub-button").onclick = function(){
     document.querySelector(".ratings-container").className = "hidden";
-    document.querySelector(".thankyou-container").className = "";
+    document.querySelector(".thank-you-container").className = "";
 
     document.querySelector('#rating-value').innerHTML = rating;
 }
