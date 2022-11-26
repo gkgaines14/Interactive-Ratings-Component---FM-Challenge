@@ -185,6 +185,10 @@ img{
     margin: 15px;
 }
 
+#sub-button:hover{
+    cursor: pointer;
+}
+
 @media screen and (max-width:430px) {
     
     /* body{
@@ -254,7 +258,5 @@ img{
     }
 
 
-    /* .thank-you-card .text{
-        font-size: 30pt;
-    } */
+    
 }
